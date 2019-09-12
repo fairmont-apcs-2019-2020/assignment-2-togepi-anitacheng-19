@@ -1,8 +1,10 @@
 
 public class TogepiThing extends PokeThing {
 	public TogepiThing() {
-		super("topegi");
+		super("togepi");
+		// TODO Auto-generated constructor stub
 	}
+	
 	public void step () {
 		move();
 	}
