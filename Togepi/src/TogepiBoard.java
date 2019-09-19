@@ -21,9 +21,25 @@ public class TogepiBoard extends Board {
 	{
 		super.newGame(repaint);
 		
-		// Create a TogepiThing at 0, 0
-	 	TogepiThing togepi = new TogepiThing();
-	 	togepi.setLocation(0, 0);
-	 	add(togepi);
+		// Create a MyThing at 0, 0
+	 	//TogepiBoard MyThing = new TogepiBoard();
+	 	//MyThing.setLocation(0, 0);
+	 	//add(MyThing);
+	 	
+	 	MyThing MyThingg = new MyThing();
+	 	MyThingg.setLocation(0, 0);
+	 	add(MyThingg);
+	}
+
+
+	private void add(TogepiBoard myThing) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	private void setLocation(int i, int j) {
+		// TODO Auto-generated method stub
+		
 	}
 }
